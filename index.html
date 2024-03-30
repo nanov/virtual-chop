@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Should we GO?!</title>
+</head>
+
+<body>
+<H1>Should I Stay or Should i go</H1>>
+
+<button id="demo1" onclick="play()">Play</button>
+
+<h2 id="it">Click to decide</h2>
+
+	<script>
+
+	function play() {
+		let n;  
+		n = Math.floor(Math.random() * 10);
+				if (n > 5) {
+						document.getElementById("it").innerHTML = "stay";
+				} else{
+						document.getElementById("it").innerHTML = "go";
+				}
+	}
+		 </script>
+
+   </body>
+
+</html>
